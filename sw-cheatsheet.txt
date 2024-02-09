@@ -1,0 +1,21 @@
+ "dataGroups": [
+    {
+      "name": "coco-ssd-model",
+      "cacheConfig": {
+        "maxAge": "3d",
+        "maxSize": 30,
+        "timeout": "3s",
+        "strategy": "freshness"
+      },
+      "urls": [
+        "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/model.json",
+        "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard1of5",
+        "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard2of5",
+        "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard3of5",
+        "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard4of5",
+        "https://storage.googleapis.com/tfjs-models/savedmodel/ssdlite_mobilenet_v2/group1-shard5of5"
+      ]
+    }
+  ]
+
+  
