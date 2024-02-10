@@ -6,9 +6,9 @@ import { VideoComponent } from './video.component';
   standalone: true,
   imports: [VideoComponent],
   template: `<h1>Angular Is All You Need!</h1>
-    @if(stream) {
+    @defer(when stream; prefetch on idle) {
     <app-video [stream]="stream"></app-video>}`,
-  styles: ``,
+  styles: `h1:hover{color:red}`,
 })
 export class AppComponent implements AfterViewInit {
   stream!: MediaStream;
